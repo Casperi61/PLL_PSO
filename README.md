@@ -1,5 +1,4 @@
-# PLL_PSO
-# 🌀 自适应PLL参数优化平台（基于PSO）
+# 自适应PLL参数优化平台（基于PSO）
 
 本项目是一个灵活可复用的**二阶锁相环（PLL）系统优化平台**，集成了高精度仿真模型与改进的自适应粒子群算法（PSO），支持多条件性能评估、约束优化、多目标可调评分机制，适用于控制理论研究、算法工程开发及科研论文实验验证。
 
@@ -31,19 +30,30 @@ project/
 ├── optimizer.py        # 自适应粒子群优化器（PSO）
 ├── config.py           # 所有仿真与优化配置
 └── README.md           # 项目说明文档（即本文）
+```
 
-## 快速开始
+## 🚀 快速开始
 
-🚀 快速开始
 1. 克隆仓库
+
+
+```
 git clone https://github.com/Casperi61/PLL_PSO.git
+
 cd PLL_PSO
+```
 
 2. 安装依赖
-pip install numpy=2.3.2 scipy=1.16.0 
+
+```
+pip install numpy=2.3.2 scipy=1.16.0
+```
 
 3. 运行示例实验
+
+```
 python main.py
+```
 
 ## ⚙️ 配置说明（config.py）
 
